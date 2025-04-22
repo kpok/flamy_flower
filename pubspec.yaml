@@ -19,5 +19,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-  - assets/images/player5.png
-  - assets/images/stormy_sky.jpg
+    - assets/images/player5.png
+    - assets/images/stormy_sky.jpg
