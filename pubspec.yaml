@@ -1,0 +1,23 @@
+name: flamy_flower
+description: A vertical platformer game like Icy Tower, made in Flutter & Flame.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  flame: ^1.28.0
+  vector_math: ^2.1.4  # albo najnowsza stabilna
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/player5.png
+  - assets/images/stormy_sky.jpg
